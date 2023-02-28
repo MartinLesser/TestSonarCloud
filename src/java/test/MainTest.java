@@ -11,4 +11,11 @@ class MainTest {
         final int increment = main.increment(5);
         assertEquals(6, increment);
     }
+
+    @Test
+    void method_when_called_then_returnXPlusTwo() {
+        final Main main = new Main();
+        final int increment = main.method(5);
+        assertEquals(7, increment);
+    }
 }
